@@ -2,7 +2,8 @@ $(document).ready(function() {
   $("form#info").submit(function(event) {
     var gender = $("select#gender").val();
     var partiness = $("select#partiness").val();
-    console.log(gender + partiness)
+    console.log("Hi")
+    console.log(gender + " " + partiness)
     if (gender === "male" && partiness === "party") {
       $("#animalphoto").show;
     } else if(gender === "male" && partiness === "noparty") {
