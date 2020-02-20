@@ -14,6 +14,10 @@
   display: none;
 }
 
+.imagesize {
+  max-width: 250px;
+  height: auto;
+}
 .verticalspacer {
   height: 20px;
 }
