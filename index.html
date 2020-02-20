@@ -5,19 +5,26 @@
 <link rel="stylesheet" href="css/styles.css" type="text/css">
 <script src="jquery-3.4.1.js"></script>
 <script src="js/scripts.js"></script>
-    <title>Who's your muppet!?</title>
+    <title>Muppet Dating</title>
 </head>
 <body>
-    <form id="Dating-Info">
-        <label for="weight">weight</label>
-        <input id="weight" type="text">
-        <select id="gender">
-            <option value="female">Female</option>
-            <option value="male">Male</option>
-        <select id="party">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-    </form>
-    
+    <div class="container">
+        <form id="info">
+            <div class="form-group">
+                <label for="gender">What gender of Muppet are you interested in?</label>
+                <select id="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="partiness">Do you like to party?</label>
+                <select id="partiness">
+                    <option value="party">I like to party.</option>
+                    <option value="noparty">I do not like to party.</option>
+                </select>
+            </div>
+        </form>
+    </div> 
 </body>
 </html>
