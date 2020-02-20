@@ -1,4 +1,16 @@
-.hide {
+#animalphoto {
+  display: none;
+}
+
+#gonzophoto {
+  display: none;
+}
+
+#janicephoto {
+  display: none;
+}
+
+#piggyphoto {
   display: none;
 }
 

@@ -5,15 +5,14 @@ $(document).ready(function() {
     console.log("Hi")
     console.log(gender + " " + partiness)
     if (gender === "male" && partiness === "party") {
-      $("#animalphoto").show;
+      $("#animalphoto").show();
     } else if(gender === "male" && partiness === "noparty") {
-      $("#gonzophoto").show;
+      $("#gonzophoto").show();
     } else if(gender === "female" && partiness === "party") {
-      $("#janicephoto").show;
+      $("#janicephoto").show();
     } else if(gender === "female" && partiness === "noparty") {
-      $("#piggyphoto").show;
+      $("#piggyphoto").show();
     } else {alert("This page is broken.")}
-    
     event.preventDefault();
     });
   });
